@@ -1,0 +1,16 @@
+---
+title: "webfinger"
+format: gfm
+engine: knitr
+---
+
+Bare bones Rust [WebFinger](https://www.rfc-editor.org/rfc/rfc7033) client.
+
+```{bash}
+cargo run --release acct:hrbrmstr@rud.is
+```
+
+
+```{bash}
+cargo run --release -- --pretty acct:hrbrmstr@rud.is 
+```
